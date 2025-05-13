@@ -13,9 +13,13 @@ console.log(`O produto custa R$ ${preco}.`);
 let produto = "chocolate meio amargo", quantidade = "3"
 console.log(`Comprei ${quantidade} unidades de ${produto}.`);
 
-6
+let temDesconto = true; 
+console.log(`Tem desconto disponível? ${temDesconto}`);
 
-7
+let anoAtual = 2025;
+let anoNascimento = 1990;
+let idade1 = anoAtual - anoNascimento;
+console.log(`Você tem ${idade1} anos.`);
 
 let curso = "desenvolvimento de sistema", instituicao = "Colegio Ambrosio Bini"
 console.log(`Estou cursando ${curso} no ${instituicao}.`);
